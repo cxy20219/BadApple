@@ -60,9 +60,9 @@ def socket_end(dataSocket,listenSocket):
 if __name__ == "__main__":
     dataSocket,listenSocket = socket_init()
 
-    video = cv2.VideoCapture("E:\juypternote\jupyternotes\Tools\BadApple.mp4")
+    video = cv2.VideoCapture("BadApple.mp4")
     ret,img = video.read()
-    player = MediaPlayer("E:\juypternote\jupyternotes\Tools\BadApple.mp4") #打开音频
+    player = MediaPlayer("BadApple.mp4") #打开音频
 
     page = 1
     fps = 8
